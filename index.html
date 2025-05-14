@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="styles/home.css">
+        <header>
+            <nav class="navbar">
+                <a class="hide-menu" class="active" href="index.html">Home</a>
+                <a class="hide-menu" href="html/projects.html">Project</a>
+                <a class="hide-menu" href="html/about.html">About</a>
+                <a class="hide-menu" href="html/contact.html">Contact</a>
+                <a class="hamburger-icon" onclick="showSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="4" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="11" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="18" width="24" height="2" rx="1" fill="currentColor"/>
+                    </svg>
+               </a>
+            </nav>
+            <nav class="sidebar">
+                <a class="close-icon" onclick="hideSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+               </a>
+                <a class="active" href="index.html">Home</a>
+                <a href="html/projects.html">Project</a>
+                <a href="html/about.html">About</a>
+                <a href="html/contact.html">Contact</a>
+            </nav>
+        </header>
+    </head>
+    <body>
+        <div class="details">
+            <div class="info">
+                <h2>Hi, I'm Bright</h2>
+                <p class="details1">Electrical/Electronics Engineer</p>
+                <p class="details2">Web Developer</p>
+                <a class="btn" href="html/projects.html">View My Work</a>
+            </div>
+            <div class="profile">
+                <img src="images/profile.png">
+            </div>
+        </div>
+        <div class="projects">
+            <h3>Projects</h3>
+            <a class="project-text" href="html/projects.html">View All Projects &rightarrow;</a>
+        </div>
+        <div class="project-cards">
+            <div class="cards">
+                <div class="img-container">
+                    <img src="images/game.png">
+                </div>
+                <div class="description">
+                    <p class="card-text">Rock Paper Scissors Game</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-container">
+                    <img src="images/youtube.jpg">
+                </div>
+                <div class="description">
+                    <p class="card-text">YouTube Clone</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-container">
+                    <img src="images/portfolio.jpg">
+                </div>
+                <div class="description">
+                    <p class="card-text">Portfolio Website</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="img-container">
+                    <img src="images/landing page.jpg">
+                </div>
+                <div class="description">
+                    <p class="card-text">Landing Page</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/home.js"></script>
+    </body>
+</html>

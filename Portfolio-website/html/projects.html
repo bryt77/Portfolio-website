@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Projects</title>
+        <link rel="stylesheet" href="../styles/projects.css">
+        <header>
+            <nav class="navbar">
+                <a class="hide-menu" href="../index.html">Home</a>
+                <a class="hide-menu" class="active" href="projects.html">Project</a>
+                <a class="hide-menu" href="about.html">About</a>
+                <a class="hide-menu" href="contact.html">Contact</a>
+                <a class="hamburger-icon" onclick="showSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="4" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="11" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="18" width="24" height="2" rx="1" fill="currentColor"/>
+                    </svg>
+               </a>
+            </nav>
+            <nav class="sidebar">
+                <a class="close-icon" onclick="hideSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+               </a>
+                <a href="../index.html">Home</a>
+                <a class="active" href="projects.html">Project</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+    </head>
+    <body>
+        <div class="projects">
+            <p class="text">
+                A showcase of web development that highlight my skills in responsive design and interactive front-end development.
+                These projects reflect my proficiency in HTML, CSS and Javascript as well as my passion for creating seamless digital experiences.
+            </p>
+            <div class="project-cards">
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/game.png">
+                    </div>
+                    <div class="description">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p class="card-text">
+                            An interactive Rock Paper Scissors game using HTML, CSS and Javascript.
+                            Features real-time user vs computer gameplay and score tracking  
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/youtube.jpg">
+                    </div>
+                    <div class="description">
+                        <h3>YouTube Clone</h3>
+                        <p class="card-text">
+                            A youtube homepage clone to replicate the layout and design of the real site.
+                            Includes responsive thumbnails, sidebar navigation and a mobile-friendly grid system 
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/landing page.jpg">
+                    </div>
+                    <div class="description">
+                        <h3>Landing Page</h3>
+                        <p class="card-text">
+                            A modern landing page designed to focus on clean layout, compelling and CTAs
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/login.png">
+                    </div>
+                    <div class="description">
+                        <h3>Login Page</h3>
+                        <p class="card-text">
+                            A sleek login interface with form validation and responsive across devices styled with modern UI principles using CSS
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/weather.png">
+                    </div>
+                    <div class="description">
+                        <h3>Weather App</h3>
+                        <p class="card-text">
+                            A weather dashboard using OpenWeather Api and Javascript.
+                            Displays current weather and forecasts with dynamic UI updates with location and search functionality
+                        </p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="image-container">
+                        <img src="../images/portfolio.jpg">
+                    </div>
+                    <div class="description">
+                        <h3>Portfolio Website</h3>
+                        <p class="card-text">
+                            A personal portfolio website built with Html, CSS and Javascript to showcase my skills and projects.
+                            Features a responsive design, smooth animations and clean, accessible UI. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../js/projects.js"></script>
+    </body>
+</html>

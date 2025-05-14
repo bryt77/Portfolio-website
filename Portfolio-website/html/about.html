@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <title>About Me</title>
+        <link rel="stylesheet" href="../styles/about.css">
+        <header>
+            <nav class="navbar">
+                <a class="hide-menu" href="../index.html">Home</a>
+                <a class="hide-menu" href="projects.html">Project</a>
+                <a class="hide-menu" class="active" href="about.html">About</a>
+                <a class="hide-menu" href="contact.html">Contact</a>
+                <a class="hamburger-icon" onclick="showSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect y="4" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="11" width="24" height="2" rx="1" fill="currentColor"/>
+                    <rect y="18" width="24" height="2" rx="1" fill="currentColor"/>
+                    </svg>
+               </a>
+            </nav>
+            <nav class="sidebar">
+                <a class="close-icon" onclick="hideSidebar()" href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+               </a>
+                <a href="../index.html">Home</a>
+                <a href="projects.html">Project</a>
+                <a class="active" href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+    </head>
+    <body>
+        <h3>ABOUT ME</h3>
+        <div class="about">
+            <div class="image-container">
+                <img src="../images/profile.png">
+            </div>
+            <div class="info">
+                <p class="details">
+                    Hi, I'm Bright, a frontend developer specializing in building exceptional digital experiences.
+                    With a passion for coding and a strong foundation in design, I create responsive and user-friendly websites
+                </p>
+                <div class="btn">
+                    <button>Download Resume</button>
+                </div> 
+            </div>
+        </div>
+        <h2>Skills</h2>
+        <div class="skills">
+            <p class="skill-1">HTML</p>
+            <p class="skill-2">CSS</p>
+            <p class="skill-3">Javascript</p>
+        </div>
+        <script src="../js/about.js"></script>
+    </body>
+</html>
